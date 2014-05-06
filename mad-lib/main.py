@@ -20,3 +20,10 @@ monsters = ['Troll', 'Ogre', 'Monstrous Donkey']
 #Dictionary
 new_brothers = {'new': 'John', 'old': monsters}
 
+#Mathematical Operators
+full_sail = full_sail + 2000
+computer_graphics = full_sail - 1200
+full_name = first_name + ' ' + last_name
+
+
+
