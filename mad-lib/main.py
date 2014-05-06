@@ -15,5 +15,8 @@ brothers = input('How many brothers do you have?(Enter a number): ')
 full_sail = input('How many years have you been at Full Sail?(Enter a number): ')
 
 #Array
-monsters = ['Troll', 'Ogre', 'Monstrous Donkeys']
+monsters = ['Troll', 'Ogre', 'Monstrous Donkey']
+
+#Dictionary
+new_brothers = {'new': 'John', 'old': monsters}
 
