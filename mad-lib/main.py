@@ -11,3 +11,5 @@ gender = raw_input('Enter your gender (M or F): ')
 age = input('Enter your age: ')
 brothers = input('How many brothers do you have?(Enter a number): ')
 full_sail = input('How many years have you been at Full Sail?(Enter a number): ')
+
+monsters = ['Troll', 'Ogre', 'Monstrous Donkey']
