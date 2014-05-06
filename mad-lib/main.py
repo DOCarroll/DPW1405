@@ -25,8 +25,7 @@ full_sail = full_sail + 2000
 computer_graphics = full_sail - 1200
 full_name = first_name + ' ' + last_name
 
-#Assignment Operator
-age += 250
 
-
-
+if age < 20 or age > 25:
+    #Assignment Operator
+    age += 250
