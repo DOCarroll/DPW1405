@@ -17,6 +17,7 @@ full_sail = input('How many years have you been at Full Sail?(Enter a number): '
 #Array
 monsters = ['Troll', 'an Ogre', 'and a Monstrous Donkey']
 john_dave = ['John', 'and Dave']
+brothers_ages = ['18', '19']
 
 #Dictionary
 new_brothers = {'new': john_dave, 'old': monsters}
@@ -74,10 +75,16 @@ You're doomed to stay at Full Sail for {full_sail} years!
 """
 part3 = part3.format(**locals())
 
+part4 = """
+Two of which are
+"""
+
+
 def story(age_part, brothers_part, full_sail_part):
     print age_part
     print full_sail_part
     print brothers_part
+
 
 
 
