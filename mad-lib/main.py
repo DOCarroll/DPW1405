@@ -60,14 +60,28 @@ else:
     Some of your brothers died, or were turned into monsters. Now your brothers are a
     """
 
+#Creating a function that will return a value
 
+def computer(full):
+    full = full - 1200
+    full /= 3
+    return full
+computer_graphics = computer(full_sail)
 
-def story(age_part, brothers_part):
+part3 = """
+You're doomed to stay at Full Sail for {full_sail} years!
+{computer_graphics} years will be spent in Advanced Computer Graphics!
+"""
+part3 = part3.format(**locals())
+
+def story(age_part, brothers_part, full_sail_part):
     print age_part
+    print full_sail_part
     print brothers_part
 
 
 
-story(part1, part2)
+
+story(part1, part2, part3)
 print_monsters(brothers)
 
