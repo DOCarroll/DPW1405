@@ -29,3 +29,9 @@ full_name = first_name + ' ' + last_name
 if age < 20 or age > 25:
     #Assignment Operator
     age += 250
+
+if brothers < 3:
+    brothers = new_brothers['new']
+else:
+    brothers = new_brothers['old']
+
