@@ -11,6 +11,16 @@ class MainHandler(webapp2.RequestHandler):
 #Create the Abstract Animal Class
 class AbstractAnimal(object):
     def __init__(self):
+        #define properties of animals
+        self._phylum = ''
+        self._class = ''
+        self._order = ''
+        self._family = ''
+        self._genus = ''
+        self._image = ''
+        self._life_span = ''
+        self._habitat = ''
+        self._geo_location = ''
 
 
 app = webapp2.WSGIApplication([
