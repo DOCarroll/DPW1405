@@ -22,6 +22,15 @@ class AbstractAnimal(object):
         self._habitat = ''
         self._geo_location = ''
 
+        animal = [self._phylum, self._class, self._order, self._family, self._genus, self._image, self._life_span, self._habitat, self._geo_location]
+        print animal
+
+#Create the first Animal Class
+class RedFox(AbstractAnimal):
+    def __init__(self):
+      
+
+
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
