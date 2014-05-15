@@ -37,7 +37,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15727392" vertical-offset="0" max-vertical-offset="1245">
+            <state line="85" column="34" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.82306683" vertical-offset="647" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -596,7 +596,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15727392" vertical-offset="0" max-vertical-offset="1245">
+        <state line="85" column="34" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.82306683" vertical-offset="647" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
