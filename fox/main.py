@@ -70,12 +70,28 @@ class RedFox(AbstractAnimal):
         self._habitat = 'All over the Northern Hemisphere, some places in Southern Hemisphere.'
         self._geo_location = ''
 
-#Create the first Animal Class
+#Create the second Animal Class
 class PolarBear(AbstractAnimal):
     def __init__(self):
         #add AbstractAnimal properties
         AbstractAnimal.__init__(self)
         self._name = 'Polar Bear'
+        self._phylum = ''
+        self._class = ''
+        self._order = ''
+        self._family = ''
+        self._genus = ''
+        self._image = ''
+        self._life_span = ''
+        self._habitat = 'Way North'
+        self._geo_location = ''
+
+#Create the third Animal Class
+class ArcticWolf(AbstractAnimal):
+    def __init__(self):
+        #add AbstractAnimal properties
+        AbstractAnimal.__init__(self)
+        self._name = 'Arctic Wolf'
         self._phylum = ''
         self._class = ''
         self._order = ''
