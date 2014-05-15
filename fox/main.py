@@ -6,7 +6,8 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Hello world!')
+        p = Page()
+        self.response.write(p.print_out())
 
 #Create a Page class
 class Page(object):
@@ -15,12 +16,22 @@ class Page(object):
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>What Does the Fox Say?</title>
     </head>
 <body>'''
         self._content = '''
-This is where all of the content will go
-        '''
+This is where all of the content will go'''
+        self._close = '''
+</body>
+</html>'''
+    #Create a Print Out Function for the Page
+    def print_out(self):
+        self.update()
+        return self.all
+    #create an update Function for {}'s
+    def update(self):
+        self.all = self._open + self._content + self._close
+        self.all = self.all.format(**locals())
 
 
 
