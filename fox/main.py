@@ -6,39 +6,14 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        p = Page()
+        p = AbstractAnimal()
         self.response.write(p.print_out())
-
-#Create a Page class
-class Page(object):
-    def __init__(self):
-        self._open = '''
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>What Does the Fox Say?</title>
-    </head>
-<body>'''
-        self._content = '''
-This is where all of the content will go'''
-        self._close = '''
-</body>
-</html>'''
-    #Create a Print Out Function for the Page
-    def print_out(self):
-        self.update()
-        return self.all
-    #create an update Function for {}'s
-    def update(self):
-        self.all = self._open + self._content + self._close
-        self.all = self.all.format(**locals())
-
-
 
 #Create the Abstract Animal Class
 class AbstractAnimal(object):
     def __init__(self):
         #define properties of animals
+        self._name = 'Test'
         self._phylum = 'Test'
         self._class = 'Test'
         self._order = 'Test'
@@ -49,14 +24,42 @@ class AbstractAnimal(object):
         self._habitat = 'Test'
         self._geo_location = 'Test'
 
-        animal = [self._phylum, self._class, self._order, self._family, self._genus, self._image, self._life_span, self._habitat, self._geo_location]
-        print animal
+        self._open = '''
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Does the Fox Say?</title>
+    </head>
+<body>'''
+        self.content = '''
+        <h2>Animal: {self._name}</h2>
+        <p>Phylum: {self._phylum}</p>
+        <p>Class: {self._class}</p>
+        <p>Order: {self._order}</p>
+        <p>Family: {self._family}</p>
+        <p>Genus: {self._genus}</p>
+        <p>Image: {self._image}</p>
+        <p>Life Span: {self._life_span}</p>
+        <p>Habitat: {self._habitat}</p>
+        <p>Geo-Location: {self._geo_location}</p>'''
+        self._close = '''
+</body>
+</html>'''
+    #Create a Print Out Function for the Page
+    def print_out(self):
+        self.update()
+        return self.all
+    #create an update Function for {}'s
+    def update(self):
+        self.all = self._open + self.content + self._close
+        self.all = self.all.format(**locals())
 
 #Create the first Animal Class
 class RedFox(AbstractAnimal):
     def __init__(self):
         #add AbstractAnimal properties
         AbstractAnimal.__init__(self)
+        self._name = 'Red Fox'
         self._phylum = ''
         self._class = ''
         self._order = ''

@@ -37,7 +37,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="39" selection-start="667" selection-end="667" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="1200">
+            <state line="8" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15727392" vertical-offset="0" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1290">
+            <state line="41" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
@@ -580,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="6" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1290">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1215">
@@ -594,9 +587,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="39" selection-start="667" selection-end="667" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="1200">
+        <state line="8" column="26" selection-start="165" selection-end="165" vertical-scroll-proportion="0.15727392" vertical-offset="0" max-vertical-offset="1245">
           <folding />
         </state>
       </provider>
