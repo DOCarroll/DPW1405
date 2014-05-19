@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b73674f-a250-4891-87b3-27514fd510dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/main.py" afterPath="$PROJECT_DIR$/fox/main.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/app.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/index.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/main.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW1405.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,28 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fox/main.py">
+        <entry file="file://$PROJECT_DIR$/foxSay/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="25" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.58715594" vertical-offset="947" max-vertical-offset="1710">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1290">
+            <state line="26" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5111402" vertical-offset="0" max-vertical-offset="763">
               <folding />
             </state>
           </provider>
@@ -74,12 +60,13 @@
         <option value="$PROJECT_DIR$/inheritance-abstraction/css/styles.css" />
         <option value="$PROJECT_DIR$/inheritance-abstraction/main.py" />
         <option value="$PROJECT_DIR$/fox/main.py" />
+        <option value="$PROJECT_DIR$/foxSay/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
+    <option name="x" value="18" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -152,7 +139,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fox" />
+              <option name="myItemId" value="foxSay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,7 +435,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1400" height="860" extended-state="0" />
+    <frame x="18" y="23" width="1400" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,12 +450,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -502,11 +489,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getters-setters/main.py">
+    <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="915">
+        <state line="53" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="22" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getters-setters/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="21" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/syntax-quiz/main.py">
@@ -561,42 +560,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getters-setters/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="903" selection-end="903" vertical-scroll-proportion="0.64613366" vertical-offset="137" max-vertical-offset="915">
-          <folding />
-        </state>
+        <state line="42" column="21" selection-start="903" selection-end="903" vertical-scroll-proportion="0.64613366" vertical-offset="137" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-abstraction/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="84" selection-end="84" vertical-scroll-proportion="0.06097561" vertical-offset="0" max-vertical-offset="738">
-          <folding />
-        </state>
+        <state line="3" column="25" selection-start="84" selection-end="84" vertical-scroll-proportion="0.06097561" vertical-offset="0" max-vertical-offset="738" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-abstraction/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.18292683" vertical-offset="0" max-vertical-offset="738">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.18292683" vertical-offset="0" max-vertical-offset="738" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1215">
+        <state line="53" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="1.0419397" vertical-offset="0" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-syntax/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1290">
+        <state line="25" column="22" selection-start="406" selection-end="406" vertical-scroll-proportion="0.115334205" vertical-offset="287" max-vertical-offset="1290">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fox/main.py">
+    <entry file="file://$PROJECT_DIR$/foxSay/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="25" selection-start="2667" selection-end="2667" vertical-scroll-proportion="0.58715594" vertical-offset="947" max-vertical-offset="1710">
+        <state line="12" column="0" selection-start="472" selection-end="472" vertical-scroll-proportion="0.24390244" vertical-offset="0" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foxSay/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5111402" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>
