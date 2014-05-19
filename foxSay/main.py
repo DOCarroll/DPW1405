@@ -24,6 +24,18 @@ class AbstractAnimal(object):
         self._life = ''
         self._habitat = ''
         self._location = ''
+#Create First Animal
+RedFox = AbstractAnimal()
+RedFox._phylum = 'BS'
+RedFox._class = 'BS'
+RedFox._order = 'BS'
+RedFox._family = 'BS'
+RedFox._genus = 'BS'
+RedFox._image = 'BS'
+RedFox._life = 'BS'
+RedFox._habitat = 'BS'
+RedFox._location = 'BS'
+
 
 
 app = webapp2.WSGIApplication([

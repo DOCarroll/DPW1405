@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b73674f-a250-4891-87b3-27514fd510dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/app.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/index.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fox/main.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foxSay/main.py" afterPath="$PROJECT_DIR$/foxSay/main.py" />
     </list>
     <ignored path="DPW1405.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +28,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/foxSay/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5111402" vertical-offset="0" max-vertical-offset="763">
+            <state line="38" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.7470511" vertical-offset="0" max-vertical-offset="763">
               <folding />
             </state>
           </provider>
@@ -596,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foxSay/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5111402" vertical-offset="0" max-vertical-offset="763">
+        <state line="38" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.7470511" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>
