@@ -36,7 +36,20 @@ RedFox._life = 'BS'
 RedFox._habitat = 'BS'
 RedFox._location = 'BS'
 
+#Create Second Animal
+ArcticWolf = AbstractAnimal()
+ArcticWolf._phylum = 'BS'
+ArcticWolf._class = 'BS'
+ArcticWolf._order = 'BS'
+ArcticWolf._family = 'BS'
+ArcticWolf._genus = 'BS'
+ArcticWolf._image = 'BS'
+ArcticWolf._life = 'BS'
+ArcticWolf._habitat = 'BS'
+ArcticWolf._location = 'BS'
 
+
+print animals
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
