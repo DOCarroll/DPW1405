@@ -9,7 +9,8 @@ import webapp2
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = Page()
-        self.response.write(p.print_page())
+        self.response.write(p.print_page(animals))
+
 
 
 #Create Page Class
@@ -19,26 +20,53 @@ class Page(object):
 <!DOCTYPE html>
 <html>
     <head>
-    <title></title>
+    <title>What Does the Fox Say</title>
     </head>
 <body>'''
         self.close = '''
 </body>
 </html>'''
         self.content = '''
-<h3></h3>
-<p>Phylum: </p>
-<p>Class: </p>
-<p>Order: </p>
-<p>Family: </p>
-<p>Genus: </p>
-<p>Img: </p>
-<p>Life Span: </p>
-<p>Habitat: </p>
-<p>Geo Location: </p>'''
+        <h3>{self.name}</h3>
+<p>Phylum: {self.phylum}</p>
+<p>Class: {self.animal_class}</p>
+<p>Order: {self.order}</p>
+<p>Family: {self.family}</p>
+<p>Genus: {self.genus}</p>
+<p>Img: {self.image}</p>
+<p>Life Span: {self.life}</p>
+<p>Habitat: {self.habitat}</p>
+<p>Geo Location: {self.location}</p>
+        '''
+        self.nav = '''
+<ul>
+    <a href='?animals=RedFox'><li>Red Fox</li></a>
+    <a href='?animals=ArcticWolf'><li>Arctic Wolf</li></a>
+    <a href='?animals=PolarBear'><li>Polar Bear</li></a>
+</ul>
+        '''
+        self.all = self.open + self.nav + self.content + self.close
 
-    def print_page(self):
-        return self.open + self.content + self.close
+
+    def print_page(self, animals):
+        for i in animals:
+           self.name = i.name
+           self.phylum = i.phylum
+           self.animal_class = i.animal_class
+           self.order = i.order
+           self.family = i.family
+           self.genus = i.genus
+           self.image = i.image
+           self.life  = i.life
+           self.habitat = i.habitat
+           self.location = i.location
+
+        self.update()
+        return self.all
+
+    def update(self):
+        self.all = self.open + self.nav + self.content + self.close
+        self.all = self.all.format(**locals())
 
 #Create Animal Class
 class AbstractAnimal(object):
@@ -53,6 +81,7 @@ class AbstractAnimal(object):
         self.life = ''
         self.habitat = ''
         self.location = ''
+
 #Create First Animal
 RedFox = AbstractAnimal()
 RedFox.name = 'Red Fox'
@@ -82,21 +111,19 @@ ArcticWolf.location = 'BS'
 #Create Third Animal
 PolarBear = AbstractAnimal()
 PolarBear.name = 'Polar Bear'
-PolarBear.phylum = 'BS'
-PolarBear.animal_class = 'BS'
-PolarBear.order = 'BS'
-PolarBear.family = 'BS'
-PolarBear.genus = 'BS'
+PolarBear.phylum = 'Chordata'
+PolarBear.animal_class = 'Mammalia'
+PolarBear.order = 'Carnivora'
+PolarBear.family = 'Ursidae'
+PolarBear.genus = 'Ursus'
 PolarBear.image = 'BS'
-PolarBear.life = 'BS'
-PolarBear.habitat = 'BS'
+PolarBear.life = '15 to 18 Years'
+PolarBear.habitat = 'The entire Arctic Region'
 PolarBear.location = 'BS'
 
 #Create Array to Store Animals
 animals = [RedFox, ArcticWolf, PolarBear]
 
-
-print animals
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
