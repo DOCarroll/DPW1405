@@ -60,6 +60,10 @@ PolarBear._life = 'BS'
 PolarBear._habitat = 'BS'
 PolarBear._location = 'BS'
 
+#Create Array to Store Animals
+animals = [RedFox, ArcticWolf, PolarBear]
+
+
 
 print animals
 
