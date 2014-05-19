@@ -48,6 +48,18 @@ ArcticWolf._life = 'BS'
 ArcticWolf._habitat = 'BS'
 ArcticWolf._location = 'BS'
 
+#Create Third Animal
+PolarBear = AbstractAnimal()
+PolarBear._phylum = 'BS'
+PolarBear._class = 'BS'
+PolarBear._order = 'BS'
+PolarBear._family = 'BS'
+PolarBear._genus = 'BS'
+PolarBear._image = 'BS'
+PolarBear._life = 'BS'
+PolarBear._habitat = 'BS'
+PolarBear._location = 'BS'
+
 
 print animals
 
