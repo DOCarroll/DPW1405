@@ -98,14 +98,14 @@ RedFox.location = 'BS'
 #Create Second Animal
 ArcticWolf = AbstractAnimal()
 ArcticWolf.name = 'Arctic Wolf'
-ArcticWolf.phylum = 'BS'
-ArcticWolf.animal_class = 'BS'
-ArcticWolf.order = 'BS'
-ArcticWolf.family = 'BS'
-ArcticWolf.genus = 'BS'
+ArcticWolf.phylum = 'Chordata'
+ArcticWolf.animal_class = 'Mammalia'
+ArcticWolf.order = 'Carnivora'
+ArcticWolf.family = 'Canidae'
+ArcticWolf.genus = 'Canis'
 ArcticWolf.image = 'BS'
-ArcticWolf.life = 'BS'
-ArcticWolf.habitat = 'BS'
+ArcticWolf.life = '7 to 10 years'
+ArcticWolf.habitat = 'Arctic, most of Northern Hemisphere'
 ArcticWolf.location = 'BS'
 
 #Create Third Animal
