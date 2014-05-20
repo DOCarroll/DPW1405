@@ -9,7 +9,12 @@ import webapp2
 class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = Page()
-        self.response.write(p.print_page(animals))
+        if self.request.GET:
+            animal = self.request.GET['animals']
+            if animal == 'RedFox':
+                self.response.write(p.print_page(animals))
+        else:
+            self.response.write(p.print_page(animals))
 
 
 
@@ -22,6 +27,7 @@ class Page(object):
     <head>
     <title>What Does the Fox Say</title>
     </head>
+    <link rel='stylesheet' type="text/css" href='css/main.css' />
 <body>'''
         self.close = '''
 </body>
@@ -47,7 +53,6 @@ class Page(object):
         '''
         self.all = self.open + self.nav + self.content + self.close
 
-
     def print_page(self, animals):
         for i in animals:
            self.name = i.name
@@ -68,6 +73,7 @@ class Page(object):
         self.all = self.open + self.nav + self.content + self.close
         self.all = self.all.format(**locals())
 
+
 #Create Animal Class
 class AbstractAnimal(object):
     def __init__(self):
@@ -84,20 +90,20 @@ class AbstractAnimal(object):
 
 #Create First Animal
 RedFox = AbstractAnimal()
-RedFox.name = 'Red Fox'
-RedFox.phylum = 'BS'
-RedFox.animal_class = 'BS'
-RedFox.order = 'BS'
-RedFox.family = 'BS'
-RedFox.genus = 'BS'
+RedFox.name = 'RedFox'
+RedFox.phylum = 'Chordata'
+RedFox.animal_class = 'Mammalia'
+RedFox.order = 'Carnivora'
+RedFox.family = 'Canidae'
+RedFox.genus = 'Vulpes'
 RedFox.image = 'BS'
-RedFox.life = 'BS'
-RedFox.habitat = 'BS'
+RedFox.life = '5 Years'
+RedFox.habitat = 'Forests, Deserts, Mountains, and Grasslands'
 RedFox.location = 'BS'
 
 #Create Second Animal
 ArcticWolf = AbstractAnimal()
-ArcticWolf.name = 'Arctic Wolf'
+ArcticWolf.name = 'ArcticWolf'
 ArcticWolf.phylum = 'Chordata'
 ArcticWolf.animal_class = 'Mammalia'
 ArcticWolf.order = 'Carnivora'
@@ -110,7 +116,7 @@ ArcticWolf.location = 'BS'
 
 #Create Third Animal
 PolarBear = AbstractAnimal()
-PolarBear.name = 'Polar Bear'
+PolarBear.name = 'PolarBear'
 PolarBear.phylum = 'Chordata'
 PolarBear.animal_class = 'Mammalia'
 PolarBear.order = 'Carnivora'
@@ -122,7 +128,8 @@ PolarBear.habitat = 'The entire Arctic Region'
 PolarBear.location = 'BS'
 
 #Create Array to Store Animals
-animals = [RedFox, ArcticWolf, PolarBear]
+animals = [RedFox, PolarBear, ArcticWolf]
+print animals[0].name
 
 
 app = webapp2.WSGIApplication([
