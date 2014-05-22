@@ -31,6 +31,20 @@ class Page(object):
         self.all = self.all.format(**locals())
         return self.all
 
+#Create counter class
+class Counter(object):
+    def __init__(self):
+        self.__counter = 0
+
+        self.__button = '''
+        <br />
+        <a href="count={self.counter}">Count Up</a>
+        '''
+
+    def update(self):
+        self.button.format(**locals())
+        self.counter += 1
+        return self.button
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
