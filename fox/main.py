@@ -19,18 +19,23 @@ class MainHandler(webapp2.RequestHandler):
             a = self.request.GET['animal']
             #Check for the animal keyword, and populate accordingly
             if a == "fox":
-                self.response.write(animals[2].update())
+                p.animal = fox
+                self.response.write(p.update())
             elif a == "wolf":
-                self.response.write(animals[1].update())
+                p.animal = wolf
+                self.response.write(p.update())
             elif a == "bear":
-                self.response.write(animals[0].update())
+                p.animal = bear
+                self.response.write(p.update())
         else:
             self.response.write(p.update())
+
 
 
 #create a class that will populate the page with html
 class Page(object):
     def __init__(self):
+        self.animal = AbstractAnimal()
         self.open = '''
 <!DOCTYPE html>
 <html>
@@ -48,18 +53,18 @@ class Page(object):
 </ul>'''
 
         self.content = '''
-<div class="content">
-<h1>{self.name}</h1>
-<img src="{self.image}"/>
-<p>{self.phylum}</p>
-<p>{self.animal_class}</p>
-<p>{self.order}</p>
-<p>{self.family}</p>
-<p>{self.genus}</p>
-<p>{self.life}</p>
-<p>{self.habitat}</p>
-<p>{self.location}</p>
-<p>{self.sound}</p>
+        <div class="content">
+<h1>{self.animal.name}</h1>
+<img src="{self.animal.image}"/>
+<p>{self.animal.phylum}</p>
+<p>{self.animal.animal_class}</p>
+<p>{self.animal.order}</p>
+<p>{self.animal.family}</p>
+<p>{self.animal.genus}</p>
+<p>{self.animal.life}</p>
+<p>{self.animal.habitat}</p>
+<p>{self.animal.location}</p>
+<p>{self.animal.sound}</p>
 </div>
         '''
 
@@ -67,10 +72,16 @@ class Page(object):
 </body>
 </html>'''
         self.all = self.open + self.nav + self.content + self.close
-        #I had to assign Page the Abstract Animal attributes to
-        # allow functional use of the update function across all the classes
-        self.name = 'Please Pick an Animal'
-        self.phylum = 'A detailed description of the animals will be displayed, along with an image.'
+
+    def update(self):
+            self.all = self.all.format(**locals())
+            return self.all
+
+
+class AbstractAnimal(object):
+    def __init__(self):
+        self.name = ''
+        self.phylum = ''
         self.animal_class = ''
         self.order = ''
         self.family = ''
@@ -79,87 +90,77 @@ class Page(object):
         self.life = ''
         self.habitat = ''
         self.location = ''
-        self.sound = ''
 
-    def update(self):
-            self.all = self.all.format(**locals())
-            return self.all
-
-
-class AbstractAnimal(Page):
-    def __init__(self):
-        Page.__init__(self)
-        self.name = ''
-        self.phylum = 'Phylum: Chordata'
-        self.animal_class = 'Class: Mammalia'
-        self.order = 'Order: Carnivora'
-        self.family = ''
-        self.genus = ''
-        self.image = ''
-        self.life = ''
-        self.habitat = ''
-        self.location = ''
-
-    def fetch(self, animalsub):
-        self.name = animalsub.name
-        self.phylum = animalsub.phylum
-        self.animal_class = animalsub.animal_class
-        self.order = animalsub.animal_class
-        self.family = animalsub.family
-        self.genus = animalsub.genus
-        self.image = animalsub.image
-        self.life = animalsub.life
-        self.habitat = animalsub.habitat
-        self.location = animalsub.location
-        self.sound = animalsub.sound
+        def create_sound():
+            self.sound = ''
+            return self.sound
+        create_sound()
 
 
 #Create First Animal
 class Fox(AbstractAnimal):
     def __init__(self):
         AbstractAnimal.__init__(self)
-        redfox = AbstractAnimal()
-        redfox.name = 'Red Fox'
-        redfox.family = 'Family: Canidae'
-        redfox.genus = 'Genus: Vulpes'
-        redfox.image = 'css/images/redfox.jpg'
-        redfox.life = 'Life Span: 5 Years'
-        redfox.habitat = 'Habitat: Forests, Deserts, Mountains, and Grasslands'
-        redfox.location = 'Location: BS'
-        redfox.sound = 'Sound: "Ring ding ding ding"'
-        self.fetch(redfox)
+        self.name = 'Red Fox'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Canidae'
+        self.genus = 'Genus: Vulpes'
+        self.image = 'css/images/redfox.jpg'
+        self.life = 'Life Span: 5 Years'
+        self.habitat = 'Habitat: Forests, Deserts, Mountains, and Grasslands'
+        self.location = 'Location: All over the world'
+        self.create_sound()
+
+    def create_sound(self):
+        self.sound = 'Sound: "Ring ding ding ding'
+        return self.sound
+
+
 
 
 #Create Second Animal
 class Wolf(AbstractAnimal):
     def __init__(self):
         AbstractAnimal.__init__(self)
-        arcticwolf = AbstractAnimal()
-        arcticwolf.name = 'Arctic Wolf'
-        arcticwolf.family = 'Family: Canidae'
-        arcticwolf.genus = 'Genus: Canis'
-        arcticwolf.image = 'css/images/arcticwolf.jpg'
-        arcticwolf.life = 'Life Span: 7 to 10 years'
-        arcticwolf.habitat = 'Habitat: Arctic, most of Northern Hemisphere'
-        arcticwolf.location = 'Location: BS'
-        arcticwolf.sound = 'Sound: "AAWWWOOOOOOOOOO!!!"'
-        self.fetch(arcticwolf)
+        self.name = 'Arctic Wolf'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Canidae'
+        self.genus = 'Genus: Canis'
+        self.image = 'css/images/arcticwolf.jpg'
+        self.life = 'Life Span: 7 to 10 years'
+        self.habitat = 'Habitat: Tundras, snowy places '
+        self.location = 'Location: Arctic, most of Northern Hemisphere'
+
+        def create_sound():
+            self.sound = 'Sound: "AAWWWOOOOOOOOOO!!!"'
+            return self.sound
+        create_sound()
 
 
 #Create Third Animal
 class Bear(AbstractAnimal):
     def __init__(self):
         AbstractAnimal.__init__(self)
-        polarbear = AbstractAnimal()
-        polarbear.name = 'Polar Bear'
-        polarbear.family = 'Family: Ursidae'
-        polarbear.genus = 'Genus: Ursus'
-        polarbear.image = 'css/images/polarbear.jpg'
-        polarbear.life = 'Life Span: 15 to 18 Years'
-        polarbear.habitat = 'Habitat: The entire Arctic Region'
-        polarbear.location = 'Location: BS'
-        polarbear.sound = 'Sound: "GRARAWWWRRRRRR!"'
-        self.fetch(polarbear)
+        self.name = 'Polar Bear'
+        self.phylum = 'Phylum: Chordata'
+        self.animal_class = 'Class: Mammalia'
+        self.order = 'Order: Carnivora'
+        self.family = 'Family: Ursidae'
+        self.genus = 'Genus: Ursus'
+        self.image = 'css/images/polarbear.jpg'
+        self.life = 'Life Span: 15 to 18 Years'
+        self.habitat = 'Habitat: Icey snowy places'
+        self.location = 'Location: The entire Arctic Region'
+        self.sound = ''
+
+        def create_sound():
+            self.sound = 'Sound: "GRARAWWWRRRRRR!"'
+            return self.sound
+        create_sound()
 
 
 app = webapp2.WSGIApplication([('/', MainHandler)], debug=True)

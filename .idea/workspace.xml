@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b73674f-a250-4891-87b3-27514fd510dc" name="Default" comment="Looped through monsters and new brothers. Assignment is finished">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fox/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foxsay/main.py" afterPath="$PROJECT_DIR$/foxsay/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/main.py" afterPath="$PROJECT_DIR$/fox/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DPW1405.iws" />
@@ -39,16 +38,7 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fox/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="14" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.529661" vertical-offset="1440" max-vertical-offset="2565">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fox/app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="87" selection-end="87" vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="435">
+            <state line="150" column="39" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.6068152" vertical-offset="1787" max-vertical-offset="2580">
               <folding />
             </state>
           </provider>
@@ -57,16 +47,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fox/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="18" selection-start="707" selection-end="707" vertical-scroll-proportion="-35.4" vertical-offset="0" max-vertical-offset="990">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes-review2/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1305">
+            <state line="30" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-9.12" vertical-offset="222" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -158,52 +139,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inheritence-quiz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inheritance-abstraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inheritance-abstraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -754,15 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather-app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="130" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="750">
-          <folding>
-            <element signature="e#44#58#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-app/page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="53" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.9436435" vertical-offset="0" max-vertical-offset="930">
@@ -819,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fox/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="707" selection-end="707" vertical-scroll-proportion="-35.4" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes-review2/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="20" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1305">
@@ -840,9 +759,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weather-app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="130" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fox/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-9.12" vertical-offset="222" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="14" selection-start="3396" selection-end="3396" vertical-scroll-proportion="0.529661" vertical-offset="1440" max-vertical-offset="2565">
+        <state line="150" column="39" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.6068152" vertical-offset="1787" max-vertical-offset="2580">
           <folding />
         </state>
       </provider>
