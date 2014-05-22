@@ -40,6 +40,18 @@ class Counter(object):
         <br />
         <a href="count={self.counter}">Count Up</a>
         '''
+    #add getters and setters
+    @property
+    def button(self):
+        return self.__button
+
+    @property
+    def counter(self):
+        return self.__counter
+
+    @counter.setter
+    def counter(self, new_counter):
+        self.__counter = new_counter
 
     def update(self):
         self.button.format(**locals())
