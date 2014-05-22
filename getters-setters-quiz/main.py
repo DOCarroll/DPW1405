@@ -7,6 +7,17 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        p = Page()
+        c = Counter()
+        self.response.write(c.counter)
+        self.response.write(p.print_out())
+        self.response.write(c.update())
+
+        if self.request.GET:
+            p.counter += 1
+
+        else:
+            c.counter = 0
 
 
 #create a page class
@@ -30,6 +41,7 @@ class Page(object):
     def print_out(self):
         self.all = self.all.format(**locals())
         return self.all
+    
 
 #Create counter class
 class Counter(object):
