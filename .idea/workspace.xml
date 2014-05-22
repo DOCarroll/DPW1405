@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b73674f-a250-4891-87b3-27514fd510dc" name="Default" comment="Looped through monsters and new brothers. Assignment is finished">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fox/main.py" afterPath="$PROJECT_DIR$/fox/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0b73674f-a250-4891-87b3-27514fd510dc" name="Default" comment="Looped through monsters and new brothers. Assignment is finished" />
     <ignored path="DPW1405.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,28 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="844" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1215">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fox/main.py">
+        <entry file="file://$PROJECT_DIR$/getters-setters-quiz/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="39" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.6068152" vertical-offset="1787" max-vertical-offset="2580">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fox/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-9.12" vertical-offset="222" max-vertical-offset="990">
+            <state line="17" column="6" selection-start="270" selection-end="270" vertical-scroll-proportion="0.3342071" vertical-offset="0" max-vertical-offset="763">
               <folding />
             </state>
           </provider>
@@ -88,12 +67,13 @@
         <option value="$PROJECT_DIR$/inheritence-quiz/main.py" />
         <option value="$PROJECT_DIR$/fox/css/main.css" />
         <option value="$PROJECT_DIR$/fox/main.py" />
+        <option value="$PROJECT_DIR$/getters-setters-quiz/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
-    <option name="y" value="22" />
+    <option name="x" value="62" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
@@ -152,7 +132,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fox" />
+              <option name="myItemId" value="getters-setters-quiz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -166,33 +146,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DPW1405" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="getters-setters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,7 +173,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="" />
@@ -512,7 +466,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="22" width="1400" height="860" extended-state="0" />
+    <frame x="62" y="45" width="1400" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -626,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes-review/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="836" selection-end="836" vertical-scroll-proportion="0.6290957" vertical-offset="0" max-vertical-offset="763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mad-lib/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="26" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.0" vertical-offset="623" max-vertical-offset="1500">
@@ -671,13 +618,6 @@
     <entry file="file://$PROJECT_DIR$/weather-app/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.20325203" vertical-offset="0" max-vertical-offset="738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getters-setters/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="903" selection-end="903" vertical-scroll-proportion="0.62647444" vertical-offset="152" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
@@ -745,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes-review2/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="844" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather-app/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="130" selection-start="1163" selection-end="1163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
@@ -768,14 +694,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="-9.12" vertical-offset="222" max-vertical-offset="990">
+        <state line="30" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.3089431" vertical-offset="222" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance-abstraction/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="844" selection-end="845" vertical-scroll-proportion="0.27522936" vertical-offset="405" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getters-setters/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="412" selection-end="412" vertical-scroll-proportion="0.21363041" vertical-offset="152" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fox/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="39" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.6068152" vertical-offset="1787" max-vertical-offset="2580">
+        <state line="84" column="30" selection-start="2196" selection-end="2196" vertical-scroll-proportion="1.6513761" vertical-offset="0" max-vertical-offset="2580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes-review/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="554" selection-end="554" vertical-scroll-proportion="0.41284403" vertical-offset="0" max-vertical-offset="763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes-review2/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="798" selection-end="798" vertical-scroll-proportion="-0.23853211" vertical-offset="542" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getters-setters-quiz/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="6" selection-start="270" selection-end="270" vertical-scroll-proportion="0.3342071" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>
